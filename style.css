@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+main{
+    height: auto;
+    width: auto;
+    /* background: rgb(230, 255, 230); */
+}
+
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    /* border: solid ; */
+    
+    height: 15vh;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+nav{
+    box-shadow: 0px 1px 25px rgb(183, 177, 177);
+    padding: 20px;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav.nav2{
+    
+
+}
+
+sup{
+    color: red;
+}
+
+
+
+div{
+   
+   display: flex;
+    font-size: 13px;
+    justify-content: center;
+}
+
+
+
+#logo{
+
+}
+
+
+
+input{
+    height: 40px;
+    width: 30vw;
+    border-radius: 10px ;
+}
+
+
+
+
+.hower:hover+em{
+    visibility: visible;
+    
+
+}
+
+.coupen{
+    height: 80px;
+    width: 100vw;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#coupen{
+    height: 15vh;
+    width: 93vw;
+}
+
+
+
+
+#Sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.scale{
+    
+}
+
+
+
+#sale{
+    
+    height: 30vw;
+    width: 50vw;
+}
+
+
+
+
+span{
+    /* border: 1px solid; */
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.couponhead{
+    
+    height: 98px;
+    width: 100vw;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+#couponHead{
+    height: 110px;
+    width: 100%;
+}
+
+
+
+.coupons{
+    /* border: 1px solid; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#coupon{
+    height: 148px;
+    width: 50vw;
+}
+
+
+
+.banner{
+    height: 100px;
+    width: 100vw;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dealsBanner{
+    height: 130px;
+    width: 100%;
+}
+
+
+
+.style{
+    height: 38vh;
+    width: 20vw;
+}
+
+
+
+#styles{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    overflow: auto;
+    border: 1px solid;
+    
+    
+}
+section::-webkit-scrollbar{
+    display: none;
+}
+
+#catBanner{
+    height: 15vh;
+    width: 93vw;
+}
+
+
+#collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    /* border: 1px solid; */
+
+}
+
+.colection{
+    
+    width: 16vw;
+    height: 40vh;
+}
+
+
+.app{
+    /* border: 1px solid; */
+    height: 22vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#app{
+    height: 20vh;
+    width: 98vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
